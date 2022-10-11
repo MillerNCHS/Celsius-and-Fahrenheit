@@ -11,7 +11,7 @@
     "print(&quot;-------&quot;, &quot;----------&quot;)\n" +
     "for c in range(37, 38, .1):\n" +
     "	fTemp = 9 * c / 5 + 32\n" +
-    "   print(c, fTemp)";
+    "	print(c, fTemp)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,

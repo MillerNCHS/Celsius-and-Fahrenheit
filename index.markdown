@@ -7,16 +7,11 @@
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "number = int(input(&quot;Enter a number: &quot;))\n" +
-    "total = 0\n" +
-    "count = 0\n" +
-    "while number:\n" +
-    "  total += int(number)\n" +
-    "  count += 1\n" +
-    "  number = input(&quot;Enter another number (Press &#039;Enter&#039; to Stop): &quot;)\n" +
-    "average = total / count\n" +
-    "print(&quot;The total is &quot;, total)\n" +
-    "print(&quot;The average is &quot;, average)";
+  var initial = "print(&quot;Celsius&quot;, &quot;Fahrenheit&quot;)\n" +
+    "print(&quot;-------&quot;, &quot;----------&quot;)\n" +
+    "for c in range(37, 38, .1):\n" +
+    "	fTemp = 9 * c / 5 + 32\n" +
+    "    print(c, fTemp)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
